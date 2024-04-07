@@ -1,0 +1,26 @@
+#!/bin/bash
+pwd
+SOURCE_DIR="docs/node_modules/reveal.js/dist/"
+DEST_DIR="docs/revealjs/dist/"
+SOURCE_PLUGIN_DIR="docs/node_modules/reveal.js/plugin/"
+DEST_PLUGIN_DIR="docs/revealjs/plugin/"
+
+# Check the operating system
+if [[ "$OSTYPE" != "darwin"* ]] && [[ "$OSTYPE" != "linux-gnu"* ]]; then
+  echo "Warning: This script is intended to be run on macOS or Unix-like systems."
+  exit 1
+fi
+
+# Check if the source directory exists
+if [ ! -d "$SOURCE_DIR" ] || [ ! -d "$SOURCE_PLUGIN_DIR" ]; then
+  echo "Error: Source directory $SOURCE_DIR or $SOURCE_PLUGIN_DIR does not exist. please run 'npm install', in the /docs folder first."
+  exit 1
+fi
+
+# Use rsync to copy only new and changed files, without deleting anything in the destination
+rsync -ru $SOURCE_DIR $DEST_DIR
+rsync -ru $SOURCE_PLUGIN_DIR $DEST_PLUGIN_DIR
+
+git add .
+
+git commit --no-verify -m "Husky commit message"

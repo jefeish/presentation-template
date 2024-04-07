@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Slide-Show</title>
+
+	<link rel="stylesheet" href="revealjs/dist/reset.css">
+	<link rel="stylesheet" href="revealjs/dist/reveal.css">
+	<link rel="stylesheet" href="revealjs/plugin/title-footer/title-footer.css">
+	<!-- <link rel="stylesheet" href="revealjs/themes/github-white.css"> -->
+	<!-- <link rel="stylesheet" href="revealjs/themes/github-black.css"> -->
+	<!-- <link rel="stylesheet" href="revealjs/themes/github.css"> -->
+	<link rel="stylesheet" href="revealjs/themes/github-alien.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="revealjs/plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background-image="images/backgrounds/mini-github.gif" data-transition="slide"  data-markdown="slides/cover.md">Cover</section>
+			<section data-transition="slide"  data-markdown="slides/1columns.md">Authors</section>
+			<section data-transition="slide"  data-markdown="slides/1columns2rows.md">Authors</section>
+			<section>
+				<section data-transition="slide"  data-markdown="slides/1list.md">Authors</section>
+				<section data-transition="slide"  data-markdown="slides/2columns-list.md">Authors</section>
+				<section data-transition="slide"  data-markdown="slides/1columns1list.md">Authors</section>
+				<section data-transition="slide"  data-markdown="slides/1list1image.md">Authors</section>
+			</section>
+			<section data-transition="slide"  data-markdown="slides/chapter1.md">Authors</section>
+			<section data-transition="slide"  data-markdown="slides/2columns.md">Authors</section>
+			<section>
+				<section data-transition="slide"  data-markdown="slides/3columns.md">Authors</section>
+				<section data-transition="slide"  data-markdown="slides/3columns2rows.md">Authors</section>
+			</section>
+			<section>
+				<section data-transition="slide"  data-markdown="slides/4columns.md">Authors</section>
+				<section data-transition="slide"  data-markdown="slides/4columns2rows.md">Authors</section>
+			</section>
+			<section>
+				<section data-transition="slide"  data-markdown="slides/image-column.md">Authors</section>
+				<section data-transition="slide"  data-markdown="slides/newspaper.md">Authors</section>
+			</section>
+			<section data-transition="slide"  data-markdown="slides/code-column.md">Authors</section>
+			<section data-transition="slide"  data-markdown="slides/qa.md">Authors</section>
+		</div>
+	</div>
+
+	<script src="revealjs/dist/reveal.js"></script>
+	<script src="revealjs/plugin/notes/notes.js"></script>
+	<script src="revealjs/plugin/markdown/markdown.js"></script>
+	<script src="revealjs/plugin/highlight/highlight.js"></script>
+	<!-- <script src="plugin/toaster.js"></script> -->
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+			slideNumber: 'c/t', 
+			transition: 'none',
+			// transition: 'fade-in',
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+			// Optional libraries used to extend on reveal.js
+			dependencies: [
+				// Title-Footer plugin
+				{ src: 'revealjs/plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize('','GitHub Expert Services - @jefeish',null); } }
+			]
+		});
+	</script>
+</body>
+
+</html>
