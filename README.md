@@ -4,9 +4,9 @@ A Repo template to use the `RevealJS presentation framework` with GitHub Pages
 
 Create your own presentation Repository using this Repo as a template.
 
-<img height="420" width="800px" src="docs/images/sample1.gif">
+## [Demo](https://jefeish.github.io/presentation-template/)
 
-[Demo Pages](https://jefeish.github.io/presentation-template/)
+<img height="420" width="800px" src="docs/images/sample1.gif">
 
 ## Getting Started
 
