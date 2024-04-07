@@ -66,7 +66,7 @@ Create your own presentation Repository using this Repo as a template.
 
 ### How do I create/add images or diagrams ?
 
-- For diagrams we recommend using [drawio](https://www.drawio.com), It's images are safed as XML files and can be exported to SVG, PNG etc. VS Code also has a Drawio plugin to support IDE based development.
+- For diagrams we recommend using [drawio](https://www.drawio.com), it's images are safed as XML files and can be exported to SVG, PNG etc. VS Code also has a Drawio plugin to support IDE based development.
 - For images simply add them to the `/docs/images` folder and reference them in your Markdown slide.
 
 >**NOTE:** Binary files such as `.png` etc. can increase the size of the Repo siginificantly! Try to use text based image sources, such as `.svg`.
@@ -94,7 +94,7 @@ Create your own presentation Repository using this Repo as a template.
 - The `CSS Styles` are located in, `/docs/revealjs/themes`, feel free to modify them but be aware that this can have interesting consequences.
 ---
 
-### How do I 'depploy' the presetation on GitHub ?
+### How do I 'deploy' the presetation on GitHub ?
 
 - **Enable [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)**
 - Set the `Pages` configuration to...
