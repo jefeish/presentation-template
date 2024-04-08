@@ -54,7 +54,7 @@ Create your own presentation Repository using this Repo as a template.
 
 ### How do I create a new presentation from the template ?
 
-- The template repo has several demo slides listed in the `docs/slides` (Markdown) folder. These files are based on the `docs/slides-templates` folder. This content is just for demo purposes, when you start your own presentation, remove all the slides from the `docs/slides` folder or modify their content. Remember to update the slide references in the `index.html` file.
+- The template repo has several demo slides listed in the `docs/slides` folder (Markdown). These files are based on the `docs/slides-templates` folder. This content is just for demo purposes, when you start your own presentation, remove all the slides from the `docs/slides` folder or modify their content. Remember to update the slide references in the `index.html` file.
 
 ---
 
