@@ -60,7 +60,7 @@ section.has-light-background h6 {
   display: flex;
   justify-content: space-between;
   /* text-align options: left, center, right, justify */
-  text-align: justify;
+  text-align: left;
   font-size: 18px;
   padding: 5px;
   margin: 0 0 30px;
@@ -88,6 +88,19 @@ section.has-light-background h6 {
 .column4 p {
   border-top: 2px solid var(--color-line);
   padding-top: 10px;
+}
+
+.mid-container {
+  border-top: 2px solid var(--color-line);
+  border-bottom: 2px solid var(--color-line);
+  display: flex;
+  justify-content: space-between;
+  /* text-align options: left, center, right, justify */
+  text-align: justify;
+  font-size: 18px;
+  padding: 5px;
+  margin: 0 0 30px;
+  /* height: 100vh; */
 }
 
 .text-column {
@@ -183,7 +196,6 @@ section.has-light-background h6 {
 }
 
 .container-list img {
-  width: 60%;
   justify-content: left;
   align-items: left;
   padding-top: 5px;
