@@ -30,6 +30,10 @@ Create your own presentation Repository using this Repo as a template.
 
 - To add new slides to your presenentation, add a reference to the slide that you want to add, in the `/docs/index.html` file.
 
+> **Note:** We provide a utility Node script (`dev/create-dev-index.js`) to help generate an `index.html` file for every content slide from the slides folder, use this for developement.
+>
+> :warning: The script OVERWRITES any existing silde references! So be careful not to lose any existing 'slide arrangements'
+
 - For Example
 
     ```html

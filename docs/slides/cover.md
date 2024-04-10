@@ -1,5 +1,5 @@
 <br>
-<img width="20%" src="images/github/github5-lightgrey.png">
+<img width="20%" src="images/github/copilot-enterprise.png">
 
 ##### GitHub Expert Services 
 ##### Presentation Template

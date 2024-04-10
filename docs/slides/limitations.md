@@ -2,15 +2,15 @@
 <br>
 <div class="container">
   <div class="column3">
-    <h5>Training data impacts suggestions</h5>
+    <h5 style="color: orange;">Training data impacts suggestions</h5>
   </div>
 
-  <div  class="column3">
-    <h5>GitHub Copilot != Compiler</h5>
+  <div  class="column3 red">
+    <h5 style="color: red;">GitHub Copilot != Compiler</h5>
   </div>
   
   <div  class="column3">
-    <h5>The AI can’t read your mind</h5>
+    <h5 style="color: cyan;">The AI can’t read your mind</h5>
   </div>
 </div>
 
