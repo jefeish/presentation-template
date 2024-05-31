@@ -1,6 +1,6 @@
 # Presentation Template
 
-## [Demo](https://jefeish.github.io/expert-hub-workshop/)
+## [Demo](https://jefeish.github.io/presentation-template/)
 
 A Repo template to use the `RevealJS presentation framework` with GitHub Pages
 
