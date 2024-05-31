@@ -1,0 +1,67 @@
+#!/usr/bin/env python3
+
+import os
+import shutil
+from fnmatch import fnmatch
+import curses
+
+def main(stdscr):
+    # Initialize color pair
+    curses.init_pair(1, curses.COLOR_WHITE, curses.COLOR_BLACK)
+    curses.init_pair(2, curses.COLOR_BLACK, curses.COLOR_WHITE)
+
+    while True:
+        # Get a list of all files starting with 'index.html.' except 'index.html.bak'
+        files = [f for f in os.listdir() if fnmatch(f, 'index.html.*') and f != 'index.html.bak']
+
+        # Remove 'index.html.' from the start of each filename
+        files = [f.replace('index.html.', '') for f in files]
+
+        # Filter out 'bak' from the list
+        files = [f for f in files if 'bak' not in f]
+
+        # Add 'restore previous' and 'exit' as the first and last options
+        options = ['restore previous'] + files + ['exit']
+
+        choice = 0
+        while True:
+            stdscr.clear()
+            stdscr.addstr("Please select an option:\n")
+            for i, option in enumerate(options, start=0):  # Start enumeration from 0
+                option_display = option.replace('_', ' ')  # Replace underscore with space
+                if i == choice:
+                    stdscr.addstr(f"{i}. {option_display}\n", curses.color_pair(2))
+                else:
+                    stdscr.addstr(f"{i}. {option_display}\n", curses.color_pair(1))
+
+            key = stdscr.getch()
+
+            if key == curses.KEY_UP and choice > 0:
+                choice -= 1
+            elif key == curses.KEY_DOWN and choice < len(options) - 1:
+                choice += 1
+            elif key in range(48, 58):  # Number keys '0' to '9'
+                choice = key - 48  # Convert key value to index
+            elif key == curses.KEY_ENTER or key in [10, 13]:
+                break
+
+        opt = options[choice]
+
+        if opt == "restore previous":
+            # Restore the backup file
+            shutil.copy2('index.html.bak', 'index.html')
+            stdscr.addstr("Restored the previous 'index.html'\n")
+        elif opt == "exit":
+            break
+        else:
+            # Backup the current 'index.html' file
+            shutil.copy2('index.html', 'index.html.bak')
+
+            # Replace 'index.html' with the selected file
+            shutil.copy2(f'index.html.{opt}', 'index.html')
+            stdscr.addstr(f"Switched to {opt}\n")
+            stdscr.refresh()  # Refresh screen to show the message immediately
+            stdscr.getch()  # Wait for user to press any key before continuing
+
+if __name__ == "__main__":
+    curses.wrapper(main)

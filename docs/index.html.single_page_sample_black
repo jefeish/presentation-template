@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Slide-Show</title>
+
+	<link rel="stylesheet" href="revealjs/dist/reset.css">
+	<link rel="stylesheet" href="revealjs/dist/reveal.css">
+	<link rel="stylesheet" href="revealjs/plugin/title-footer/title-footer.css">
+	<link rel="stylesheet" href="revealjs/themes/github-black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="revealjs/plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-transition="slide"  data-markdown="slides/single-markdown-slides.md">Single Page Sample</section>
+		</div>
+	</div>
+
+	<script src="revealjs/dist/reveal.js"></script>
+	<script src="revealjs/plugin/notes/notes.js"></script>
+	<script src="revealjs/plugin/markdown/markdown.js"></script>
+	<script src="revealjs/plugin/highlight/highlight.js"></script>
+	<!-- <script src="plugin/toaster.js"></script> -->
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+			slideNumber: 'c/t', 
+			transition: 'none',
+			// transition: 'fade-in',
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+			// Optional libraries used to extend on reveal.js
+			dependencies: [
+				// Title-Footer plugin
+				{ src: 'revealjs/plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize('','GitHub Expert Services - @jefeish',null); } }
+			]
+		});
+	</script>
+</body>
+
+</html>

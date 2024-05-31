@@ -1,5 +1,4 @@
-
-### Four Columns Two Rows
+# Four Columns Two Rows
 
 <br>
 
@@ -50,4 +49,4 @@
 </div>
 
 <!-- Add some speaker notes -->
-Note: testing notes
+Note:

@@ -1,4 +1,4 @@
-### Two Equal Columns - Image column
+# Two Equal Columns - Image column
 <br>
 <div class="container">
   <div class="text-column">
@@ -13,4 +13,4 @@
 </div>
 
 <!-- Add some speaker notes -->
-Note: testing notes
+Note:

@@ -1,7 +1,8 @@
-<div class="centered-element">
-<img src="images/github/moon-600.png">
+<div class="chapter">
+    <img width="100px" src="images/github/moon-600.png">
     &nbsp;&nbsp;&nbsp;&nbsp;
-    <h2>
-    Chapter 1
-    </h2>
+    <div class="column1">
+        <p class="title">Chapter 1</p>
+        <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    </div>
 </div>

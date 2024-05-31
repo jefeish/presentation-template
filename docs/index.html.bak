@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Slide-Show</title>
+
+	<link rel="stylesheet" href="revealjs/dist/reset.css">
+	<link rel="stylesheet" href="revealjs/dist/reveal.css">
+	<link rel="stylesheet" href="revealjs/plugin/title-footer/title-footer.css">
+	<link rel="stylesheet" href="revealjs/themes/github-white.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="revealjs/plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background-image="images/mini-github.gif" data-transition="slide"  data-markdown="slides/cover.md">Cover</section>
+			<section>
+				<section data-transition="slide"  data-markdown="slides/agenda.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/agenda2.md">Sapmle</section>
+			</section>
+			<section>
+				<section data-transition="slide"  data-markdown="slides/chapter1.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/chapter2.md">Sapmle</section>
+			</section>				
+			<section data-transition="slide"  data-markdown="slides/1columns.md">Sapmle</section>
+			<section data-transition="slide"  data-markdown="slides/1columns2rows.md">Sapmle</section>
+			<section data-transition="slide"  data-markdown="slides/1table.md">Sapmle</section>		
+			<section>
+				<section data-transition="slide"  data-markdown="slides/1list.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/2columns-list.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/1columns1list.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/1list1image.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/1image-1list.md">Sapmle</section>
+			</section>
+			<section>
+				<section data-transition="slide"  data-markdown="slides/2columns.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/2columns-line.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/2columns-box.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/2columns2rows.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/2columns-title.md">Sapmle</section>
+			</section>
+			<section>
+				<section data-transition="slide"  data-markdown="slides/3columns.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/3columns2rows.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/3columns-images.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/3columns-tablets.md">Sapmle</section>	
+			</section>
+			<section>
+				<section data-transition="slide"  data-markdown="slides/4columns.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/4columns2rows.md">Sapmle</section>
+			</section>
+			<section>
+				<section data-transition="slide"  data-markdown="slides/image-column.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/newspaper.md">Sapmle</section>
+			</section>
+			<section data-transition="slide"  data-markdown="slides/code-column.md">Sapmle</section>
+			<section data-transition="slide"  data-markdown="slides/qa.md">Sapmle</section>
+		</div>
+	</div>
+
+	<script src="revealjs/dist/reveal.js"></script>
+	<script src="revealjs/plugin/notes/notes.js"></script>
+	<script src="revealjs/plugin/markdown/markdown.js"></script>
+	<script src="revealjs/plugin/highlight/highlight.js"></script>
+	<!-- <script src="plugin/toaster.js"></script> -->
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+			slideNumber: 'c/t', 
+			transition: 'none',
+			// transition: 'fade-in',
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+			// Optional libraries used to extend on reveal.js
+			dependencies: [
+				// Title-Footer plugin
+				{ src: 'revealjs/plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize('','GitHub Expert Services - @jefeish',null); } }
+			]
+		});
+	</script>
+</body>
+
+</html>

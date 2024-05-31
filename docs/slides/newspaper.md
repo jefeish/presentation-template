@@ -1,4 +1,4 @@
-### Newspaper Style
+# Newspaper Style
 <br>
 <div class="container">
   <div class="text-column">
@@ -16,4 +16,4 @@
 <div class="container">
 
 <!-- Add some speaker notes -->
-Note: testing notes
+Note:

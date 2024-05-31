@@ -3,171 +3,77 @@
  *
  * By Hakim El Hattab, http://hakim.se
  */
-@import url(./fonts/source-sans-pro/source-sans-pro.css);
-
-section.has-light-background,
-section.has-light-background h1,
-section.has-light-background h2,
-section.has-light-background h3,
-section.has-light-background h4,
-section.has-light-background h5,
-section.has-light-background h6 {
-  color: #222;
-}
-
+ @import url(./fonts/source-sans-pro/source-sans-pro.css);
+ @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+ 
+ section.has-light-background,
+ section.has-light-background h1,
+ section.has-light-background h2,
+ section.has-light-background h3,
+ section.has-light-background h4,
+ section.has-light-background h5,
+ section.has-light-background h6 {
+   color: #222;
+ }
+ 
+ /*********************************************
+   * GLOBAL STYLES
+   *********************************************/
+ :root {
+   --r-background-image: url('../../images/copilot-background2-dark.png');
+   --bullet-icon: url('../../images/ball-blue.png');
+   --box-image: url("../../images/background2.png");
+   --color-start: rgb(0, 3, 39);
+   --color-end: rgb(0, 22, 132);
+   --box-color-start: rgb(31, 33, 0);
+   --box-color-end: rgb(1, 23, 133);
+   --line-color-start: rgb(235, 0, 51);
+   --line-color-end: rgb(0, 235, 161);
+   --r-box-color1:rgb(149, 149, 149);
+   --r-box-color2: rgb(79, 79, 79);
+   --r-heading-font:  Source Sans Pro, Helvetica, sans-serif;
+   --r-main-font: Source Sans Pro, Helvetica, sans-serif;
+   --r-chapter-font-size: 48px;
+   --r-list-title-size: 28px;
+   --r-list-subtitle-size: 18px;
+   --r-main-font-size: 18px;
+   --r-main-color: #a2a2a2;
+   --r-block-margin: 10px;
+   --r-heading-margin: 0 0 20px 0;
+   --r-heading-color: #fff;
+   --r-heading-line-height: 1.2;
+   --r-heading-letter-spacing: normal;
+   --r-heading-text-transform: uppercase;
+   --r-heading-text-shadow: none;
+   --r-heading-font-weight: 600;
+   --r-heading1-text-shadow: none;
+   --r-heading1-size: 2.5em;
+   --r-heading2-size: 1.6em;
+   --r-heading3-size: 1.3em;
+   --r-heading4-size: 1em;
+   --r-code-font: monospace;
+   --r-link-color: #42affa;
+   --r-link-color-dark: #068de9;
+   --r-link-color-hover: #8dcffc;
+   --r-selection-background-color: rgba(66, 175, 250, 0.75);
+   --r-selection-color: #fff;
+   --r-overlay-element-bg-color: 240, 240, 240;
+   --r-overlay-element-fg-color: 0, 0, 0;
+ }
 /*********************************************
-  * GLOBAL STYLES
+  * BASE STYLES
   *********************************************/
-:root {
-  --r-background-image: url('images/backgrounds/bg-darkblue3.png');
-  /* --r-background-color: #333333; */
-  /* --r-main-font: Source Sans Pro, Helvetica, sans-serif; */
-  --color-start: rgb(0, 0, 0);
-  --color-end: rgb(41, 41, 41);
-  --color-line: rgb(45, 122, 255);
-  --r-main-font: 'Michroma', sans-serif;
-  --r-main-font-size: 32px;
-  --r-main-color: #a2a2a2;
-  --r-block-margin: 20px;
-  --r-heading-margin: 0 0 20px 0;
-  --r-heading-font: 'Michroma', sans-serif;
-  --r-heading-color: #fff;
-  --r-heading-line-height: 1.2;
-  --r-heading-letter-spacing: normal;
-  --r-heading-text-transform: uppercase;
-  --r-heading-text-shadow: none;
-  --r-heading-font-weight: 600;
-  --r-heading1-text-shadow: none;
-  --r-heading1-size: 2.5em;
-  --r-heading2-size: 1.6em;
-  --r-heading3-size: 1.3em;
-  --r-heading4-size: 1em;
-  --r-code-font: monospace;
-  --r-link-color: #42affa;
-  --r-link-color-dark: #068de9;
-  --r-link-color-hover: #8dcffc;
-  --r-selection-background-color: rgba(66, 175, 250, 0.75);
-  --r-selection-color: #fff;
-  --r-overlay-element-bg-color: 240, 240, 240;
-  --r-overlay-element-fg-color: 0, 0, 0;
-}
-
-/*********************************************
-    * GitHub Theme stuff (@jefeish)
-    *********************************************/
-.container {
-  display: flex;
-  justify-content: space-between;
-  text-align: justify;
-  font-size: 14px;
-  padding: 5px;
-  margin: 0 0 60px;
-}
-
-.column2 {
-  flex: 1;
-  padding: 5px;
-  margin: 0 30px;
-}
-
-.column3 {
-  flex: 1;
-  padding: 5px;
-  margin: 0 30px;
-}
-
-.column4 {
-  flex: 1;
-  padding: 5px;
-  margin: 0 30px;
-}
-
-.column4 p {
-  border-top: 2px solid var(--color-line);
-  padding-top: 10px;
-}
-
-.text-column {
-  flex: 1;
-  padding: 5px;
-  margin-right: 50px;
-}
-
-.image-column {
-  flex: 1;
-  padding: 5px;
-}
-
-.code-column {
-  flex: 1;
-  padding: 5px;
-  margin-right: 50px;
-  font-size: x-large
-}
-
-.image-column {
-  /* border: 1px dashed green; */
-  /* debug statement */
-  width: 400px;
-  /* Set the width of the container */
-  height: 500px;
-  /* Set the height of the container */
-  display: flex;
-  /* Use flexbox for centering */
-  justify-content: center;
-  /* Center horizontally */
-  align-items: center;
-  /* Center vertically */
-  overflow: hidden;
-  /* Hide any overflow */
-}
-
-.image-column img {
-  max-width: 100%;
-  /* Ensure the image doesn't exceed the container's width */
-  max-height: 100%;
-  /* Ensure the image doesn't exceed the container's height */
-  display: block;
-  /* Remove any extra spacing */
-  margin: auto;
-  /* Center the image */
-}
-
-.centered-element {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%; 
-}
-
-.centered-element img {
-  width: 100px;
-  height: 100px;
-}
-
-.centered-element svg {  
-  width: 150px;
-  height: 150px;
-  stroke: var(--color-line);
-}
-
-/*********************************************
-    * END - GitHub Theme stuff (@jefeish)
-    *********************************************/
-
 .reveal-viewport {
   background: #191919;
-  background-image: var(--r-background-image);
   background-color: var(--r-background-color);
   background: linear-gradient(to top right, var(--color-start) 0%, var(--color-end) 100%);
   background-position: center;
+  background-image: var(--r-background-image);
+  background-size: cover; 
 }
 
 .reveal {
+  background-color: var(--r-background-color);
   font-family: var(--r-main-font);
   font-size: var(--r-main-font-size);
   font-weight: normal;
@@ -190,11 +96,12 @@ section.has-light-background h6 {
 .reveal .slides section>section {
   line-height: 1.3;
   font-weight: inherit;
+  margin-top: 10px;
 }
 
 /*********************************************
- * HEADERS
- *********************************************/
+  * HEADERS
+  *********************************************/
 .reveal h1,
 .reveal h2,
 .reveal h3,
@@ -233,11 +140,14 @@ section.has-light-background h6 {
 }
 
 /*********************************************
- * OTHER
- *********************************************/
+  * OTHER
+  ********************************************/
+
 .reveal p {
+  font-size: var(--r-main-font-size);
   margin: var(--r-block-margin) 0;
-  line-height: 1.3;
+  line-height: 1.2;
+  /* border: 1px dashed red; */
 }
 
 /* Remove trailing margins after titles */
@@ -417,11 +327,12 @@ section.has-light-background h6 {
 
 .reveal img {
   margin: var(--r-block-margin) 0;
+  margin-right: 20px;
 }
 
 /*********************************************
- * LINKS
- *********************************************/
+  * LINKS
+  *********************************************/
 .reveal a {
   color: var(--r-link-color);
   text-decoration: none;
@@ -440,8 +351,8 @@ section.has-light-background h6 {
 }
 
 /*********************************************
- * Frame helper
- *********************************************/
+  * Frame helper
+  *********************************************/
 .reveal .r-frame {
   border: 4px solid var(--r-main-color);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
@@ -457,25 +368,460 @@ section.has-light-background h6 {
 }
 
 /*********************************************
- * NAVIGATION CONTROLS
- *********************************************/
+  * NAVIGATION CONTROLS
+  *********************************************/
 .reveal .controls {
   color: var(--r-link-color);
 }
 
 /*********************************************
- * PROGRESS BAR
- *********************************************/
+  * PROGRESS BAR
+  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
   color: var(--r-link-color);
 }
 
 /*********************************************
- * PRINT BACKGROUND
- *********************************************/
+  * PRINT BACKGROUND
+  *********************************************/
 @media print {
   .backgrounds {
     background-color: var(--r-background-color);
   }
 }
+ 
+/*********************************************
+  * GitHub Theme stuff (@jefeish)
+  *********************************************/
+
+  .title {
+    color: var(--r-heading-color);
+    font-size: var(--r-list-title-size);
+    margin: 0;
+    margin-top: 30;
+    padding: 0;
+    /* border: dashed 1px blue; */
+ }
+ 
+.subtitle  {
+  display: block;
+  color: var(--r-main-color);
+  font-weight: lighter;
+  font-size: var(--r-list-subtitle-size);
+  padding: 0;
+  margin: 0;  
+  /* border: dashed 1px green; */
+ }
+
+
+p.title {
+  display: block;
+  margin: 0;
+  padding: 0; 
+  margin-top: 10px;
+  /* border: dashed 1px red; */
+}
+
+ p.subtitle {
+  display: block;
+  margin: 0;
+  padding: 0; 
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  /* text-align options: left, center, right, justify */
+  text-align: left;
+  font-size: var(--r-main-font-size);
+  padding: 5px;
+  margin: 0 0 0 0px;
+  /* height: 100vh; 
+  width: 100vw; */
+  /* border: dashed 1px gray; */
+}
+
+.container-demo {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  justify-content: flex-start;
+  align-items: left;
+  /* width: 100vw; */
+  height: 60vh; 
+  background: linear-gradient(to right, var(--color-start) 50%, var(--color-end) 50%);
+}
+
+.container-image-title {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically in the center */
+  margin-left: 30px; /* Add spacing to the left */;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  max-width: 100%; /* Ensure child's width doesn't exceed parent's width */
+  max-height: 100%; /* Ensure child's height doesn't exceed parent's height */
+}
+
+.container-image-title img {
+  width: 60px; /* Adjust the width of the image as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add spacing between image and text */
+  max-width: 100%; /* Ensure child's width doesn't exceed parent's width */
+  max-height: 100%; /* Ensure child's height doesn't exceed parent's height */
+}
+
+.column1 {
+  flex: 1;
+  padding: 25px;
+  margin: 0 30px;
+  text-align: left;
+  font-size: large;
+}
+
+.column2 {
+  flex: 1;
+  padding: 5px;
+  margin: 0 30px;
+}
+
+.column4 {
+  flex: 1;
+  padding: 5px;
+  margin: 0 30px;
+}
+
+.column4 p {
+  border-top: 2px solid var(--line-color-end);
+  padding-top: 10px;
+}
+
+.column-title {
+  flex: 1;
+  padding: 5px;
+  margin: 0 30px;
+  font-size: xx-large;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mid-container {
+  border-top: 2px solid var(--line-color-start);
+  border-bottom: 2px solid var(--line-color-start);
+  display: flex;
+  justify-content: space-between;
+  /* text-align options: left, center, right, justify */
+  text-align: justify;
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* height: 100vh; */
+}
+
+.text-column {
+  flex: 1;
+  padding: 5px;
+  margin-right: 50px;
+}
+
+.image-column {
+  flex: 1;
+  padding: 5px;
+}
+
+.image-column-list {
+  padding: 5px;
+}
+
+.code-column {
+  flex: 1;
+  padding: 5px;
+  margin-right: 50px;
+  font-size: x-large
+}
+
+.center-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align options: left, center, right, justify */
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+  margin: 0 0 0 0px;
+  /* height: 100vh; */
+}
+
+.image-column {
+  /* border: 1px dashed green; */
+  /* debug statement */
+  width: 400px;
+  /* Set the width of the container */
+  height: 500px;
+  /* Set the height of the container */
+  display: flex;
+  /* Use flexbox for centering */
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  overflow: hidden;
+  /* Hide any overflow */
+}
+
+.image-column img {
+  max-width: 100%;
+  /* Ensure the image doesn't exceed the container's width */
+  max-height: 100%;
+  /* Ensure the image doesn't exceed the container's height */
+  display: block;
+  /* Remove any extra spacing */
+  margin: auto;
+  /* Center the image */
+}
+
+.image-column-small img {
+  max-width: 50%;
+  /* Ensure the image doesn't exceed the container's width */
+  max-height: 50%;
+  /* Ensure the image doesn't exceed the container's height */
+  display: block;
+  /* Remove any extra spacing */
+  margin: auto;
+  /* Center the image */
+}
+
+.chapter {
+  display: flex;
+  font-size: var(--r-chapter-font-size);
+  color: var(--r-heading-color);
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.chapter .title {
+  font-size: var(--r-chapter-font-size);
+  color: var(--r-heading-color);
+  margin-left: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.chapter .subtitle {
+  font-size: var(--r-main-font-size);
+  color: var(--r-heading-color);
+  margin-left: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.chapter img {
+  width: 150px;
+  margin-right: 50px;
+}
+
+.chapter svg {
+  width: 150px;
+  height: 150px;
+  stroke: var(--line-color-start);
+  margin-right: 50px;
+}
+
+.chapter-center {
+  font-size: var(--r-chapter-font-size);
+  color: var(--r-heading-color);
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.chapter-center .title {
+  font-size: var(--r-chapter-font-size);
+  color: var(--r-heading-color);
+}
+
+.chapter-center .subtitle {
+  font-size: var(--r-main-font-size);
+  color: var(--r-heading-color);
+}
+
+.chapther-center img {
+  width: 150px;
+  margin-right: 50px;
+}
+
+.list-title {  
+  background-image: var(--bullet-icon); 
+  text-align: left;
+  color: var(--r-heading-color);
+  font-weight: bolder;
+  background-size: 15px 15px; 
+  background-position: left 3px;
+  /* background-size: contain;  */
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  padding-left: 30px; 
+  max-width: 100%; 
+  max-height: 100%; 
+  /* border: 1px dashed white; */
+}
+
+.list-title + .subtitle  {
+  text-align: left;
+  color: var(--r-main-color);
+  font-weight: lighter;
+  font-size: var(--r-list-subtitle-size);
+  padding-left: 30px;
+  margin: 0;  
+  max-width: 100%; 
+  max-height: 100%; 
+  /* border: dashed 1px red; */
+ }
+
+.container-30-70{
+  display: flex;
+  justify-content: space-between;
+  /* text-align options: left, center, right, justify */
+  text-align: left;
+  font-size: var(--r-list-title-size);
+  align-items: center;
+  padding: 5px;
+  margin: 0 0 0 0px;
+  max-width: 100%; /* Ensure child's width doesn't exceed parent's width */
+  max-height: 100%; /* Ensure child's height doesn't exceed parent's height */
+  /* height: 100vh; 
+  width: 100vw; */
+  /* border: dashed 1px gray; */
+}
+
+.column-left {
+  flex: 0 0 30%; /* 30% width */
+  padding: 0 10px; /* Adjust padding as needed */
+  padding-right: 50px;
+  /* border: dashed 1px gray; */
+}
+
+.column-left > p.title {
+  font-size: x-large;
+  margin-bottom: 10px;
+}
+
+.column-right {
+  flex: 0 0 calc(70% - 50px); /* 70% width minus 50px margin */
+  padding: 0 10px; /* Adjust padding as needed */
+  margin-left: 50px;
+  width: 100%;
+  height: 100%;
+  /* border: dashed 1px gray; */
+}
+  
+.list-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  /* border: dashed 1px red; */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  padding: 8px;
+  text-align: left;
+  font-size: xx-large;
+  color: var(--r-heading-color);
+}
+
+td { 
+  padding: 8px;
+  text-align: left;
+}
+
+/* Alternate table row colors */
+/* tr:nth-child(even) {
+  background-color: #f2f2f2;
+} */
+
+.rounded-box-gradient {
+  border: 1px solid var(--r-box-color1);
+  color: var(--r-heading-color);
+  text-align: center;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px;
+  opacity: 1.0; 
+  background: linear-gradient(to top right, var(--box-color-start) 0%, var(--box-color-end) 100%);
+}
+
+.rounded-box {
+  border: 1px solid var(--r-box-color1);
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 10px;
+}
+
+.rounded-box p {
+  padding: 0px;
+  padding-left: 20px;
+  margin: 0px;
+}
+
+.container-list.rounded-box {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  font-size: var(--r-main-font-size);
+  margin-left: 0px;
+  padding: 0px;
+  max-width: 100%; /* Ensure child's width doesn't exceed parent's width */
+  max-height: 100%; /* Ensure child's height doesn't exceed parent's height */
+}
+
+.rounded-box h2, .rounded-box h3, .rounded-box h4 {
+  padding: 0px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.left-marked-box {
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to top, var(--line-color-start), var(--line-color-end)) 1 0 0 0;
+  border-image-slice: 0 0 0 1;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px;
+  text-align: left;
+}
+
+/*********************************************
+  * END - GitHub Theme stuff (@jefeish)
+  *********************************************/

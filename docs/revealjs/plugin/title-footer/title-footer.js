@@ -43,8 +43,7 @@ title_footer.initialize = function (title, footer, background) {
     link.rel = "stylesheet";
     document.querySelector("head").appendChild(link);
 
-    // Initialize properties according to parameters
-    this.background = background || 'rgba(0,0,0,0.1)';
+    // Initialize properties according to parameters or default values
     this.title = title || '';
     this.footer = footer || 'GitHub Expert Services';
 
@@ -67,7 +66,15 @@ title_footer.initialize = function (title, footer, background) {
     var createHeaderFooter = function (id) {
         var header_footer = document.createElement(id === 'header' ? 'header' : 'footer');
         header_footer.setAttribute('id', 'title-' + id);
-        header_footer.setAttribute('style', 'background:' + this.background + '; text-align: ' + (id === 'header' ? 'right' : 'left') + '; padding: 0 20px;');
+        header_footer.setAttribute('style', 'background:' + this.background + '; text-align: ' + (id === 'header' ? 'right' : 'left') + '; padding-top: 20px;');
+
+        //if the id is header, set these styles
+        if (id === 'header') {
+            header_footer.setAttribute('style', 'background:' + this.background + '; text-align: ' + (id === 'header' ? 'right' : 'left') + '; padding: 0 20px;');
+        }
+        else {
+            header_footer.setAttribute('style', 'background:' + this.background + '; text-align: ' + (id === 'header' ? 'right' : 'left') + ';  padding-top: 10px; padding-bottom: 2px; padding-left: 20px;');
+        }
 
         var header_footer_p = document.createElement('p');
         header_footer_p.style.display = 'flex'; // Set the display to flex
@@ -79,7 +86,7 @@ title_footer.initialize = function (title, footer, background) {
         var svg_container = document.createElement('div');
 
         // Use the SVG content directly
-        svg_container.innerHTML = svgContent;
+        svg_container.innerHTML = "&nbsp;&nbsp;" + svgContent;
 
         // Get the SVG element from the container
         var svg_element = svg_container.querySelector('svg');

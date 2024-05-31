@@ -1,11 +1,10 @@
 <br>
 <img width="20%" src="images/github/copilot-enterprise.png">
 
-##### GitHub Expert Services 
-##### Presentation Template
+##### A GitHub & RevealJS <br> ( Presentation Example )
 
 <br><br>
-Another way to present
+Using the power of GitHub Pages and RealJS to create great presentations<br>(Presentation as Code)
 
 
 <!-- Add some speaker notes -->

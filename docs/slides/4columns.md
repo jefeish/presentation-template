@@ -1,5 +1,4 @@
-
-### Four Equal Columns
+# Four Equal Columns
 
 <div class="container">
   <div class="column4">
@@ -32,4 +31,4 @@
 </div>
 
 <!-- Add some speaker notes -->
-Note: testing notes
+Note:

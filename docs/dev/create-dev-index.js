@@ -1,5 +1,5 @@
 /**
- * @description This script is used to generate section elements for each markdown 
+ * @description This script generates section elements for each markdown 
  *              file in the slides folder and update the index.html file with the 
  *              generated section elements.
  * 
@@ -15,7 +15,7 @@ const path = require('path');
 const slidesFolder = '../slides';
 
 // Path to the index.html file
-const indexFile = '../index2.html';
+const indexFile = '../index.html';
 
 // Function to generate section elements for each markdown file
 function generateSection(filePath) {

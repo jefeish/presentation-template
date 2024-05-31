@@ -1,4 +1,4 @@
-### Two Equal Columns - Code column
+# Two Equal Columns - Code column
 
 <div class="container">
   <div class="text-column">
@@ -30,4 +30,4 @@
 
 <!-- Add some speaker notes -->
 
-Note: testing notes
+Note:
