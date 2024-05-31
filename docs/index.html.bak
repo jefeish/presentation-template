@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="revealjs/dist/reset.css">
 	<link rel="stylesheet" href="revealjs/dist/reveal.css">
 	<link rel="stylesheet" href="revealjs/plugin/title-footer/title-footer.css">
-	<link rel="stylesheet" href="revealjs/themes/github-white.css">
+	<link rel="stylesheet" href="revealjs/themes/github-black.css">
 
 	<!-- Theme used for syntax highlighted code -->
 	<link rel="stylesheet" href="revealjs/plugin/highlight/monokai.css">
@@ -23,10 +23,12 @@
 			<section>
 				<section data-transition="slide"  data-markdown="slides/agenda.md">Sapmle</section>
 				<section data-transition="slide"  data-markdown="slides/agenda2.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/agenda3.md">Sapmle</section>
 			</section>
 			<section>
 				<section data-transition="slide"  data-markdown="slides/chapter1.md">Sapmle</section>
 				<section data-transition="slide"  data-markdown="slides/chapter2.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/chapter3.md">Sapmle</section>
 			</section>				
 			<section data-transition="slide"  data-markdown="slides/1columns.md">Sapmle</section>
 			<section data-transition="slide"  data-markdown="slides/1columns2rows.md">Sapmle</section>

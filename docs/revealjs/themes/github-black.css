@@ -28,7 +28,7 @@
    --box-color-start: rgb(31, 33, 0);
    --box-color-end: rgb(1, 23, 133);
    --line-color-start: rgb(235, 0, 51);
-   --line-color-end: rgb(0, 235, 161);
+   --line-color-end: rgb(0, 47, 235);
    --r-box-color1:rgb(149, 149, 149);
    --r-box-color2: rgb(79, 79, 79);
    --r-heading-font:  Source Sans Pro, Helvetica, sans-serif;
@@ -669,6 +669,18 @@ p.title {
   margin-right: 50px;
 }
 
+.chapter-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: var(--r-chapter-font-size);
+  color: var(--r-heading-color);
+  text-align: left;
+  padding-left: 5%;
+  align-items: flex-start;
+}
+
 .list-title {  
   background-image: var(--bullet-icon); 
   text-align: left;
@@ -777,9 +789,25 @@ td {
   background: linear-gradient(to top right, var(--box-color-start) 0%, var(--box-color-end) 100%);
 }
 
+.rounded-box-image {
+  border: 1px solid var(--r-box-color1);
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 10px;
+  background: var(--box-image);
+  background-size: cover; /* or use 'contain' if you want the entire image to be visible */
+  background-repeat: no-repeat; /* prevent the image from repeating */
+  background-position: center; /* center the image within the element */
+}
+
 .rounded-box {
   border: 1px solid var(--r-box-color1);
   border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
   margin: 10px;

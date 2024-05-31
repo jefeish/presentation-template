@@ -23,10 +23,12 @@
 			<section>
 				<section data-transition="slide"  data-markdown="slides/agenda.md">Sapmle</section>
 				<section data-transition="slide"  data-markdown="slides/agenda2.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/agenda3.md">Sapmle</section>
 			</section>
 			<section>
 				<section data-transition="slide"  data-markdown="slides/chapter1.md">Sapmle</section>
 				<section data-transition="slide"  data-markdown="slides/chapter2.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/chapter3.md">Sapmle</section>
 			</section>				
 			<section data-transition="slide"  data-markdown="slides/1columns.md">Sapmle</section>
 			<section data-transition="slide"  data-markdown="slides/1columns2rows.md">Sapmle</section>
@@ -50,6 +52,7 @@
 				<section data-transition="slide"  data-markdown="slides/3columns2rows.md">Sapmle</section>
 				<section data-transition="slide"  data-markdown="slides/3columns-images.md">Sapmle</section>
 				<section data-transition="slide"  data-markdown="slides/3columns-tablets.md">Sapmle</section>	
+				<section data-transition="slide"  data-markdown="slides/3columns-image-tablets.md">Sapmle</section>		
 			</section>
 			<section>
 				<section data-transition="slide"  data-markdown="slides/4columns.md">Sapmle</section>

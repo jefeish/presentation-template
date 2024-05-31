@@ -1,50 +1,17 @@
-# Agenda 2
-
 <div class="container">
-  <div class="column2">
-    <div class="rounded-box">
-      <p class="title"><a href="/#/4">Single Column Page</a></p>
-      <p class="subtitle">Sub-Title</p>
-    </div>
-    <div class="rounded-box">
-      <p class="title"><a href="/#/9">Three Equal Columns</a></p>
-      <p class="subtitle">Sub-Title</p>
-    </div>
-    <div class="rounded-box">
-      <p class="title"><a href="/#/7">Chapter 1</a></p>
-      <p class="subtitle">Sub-Title</p>
-    </div>
-    <div class="rounded-box">
-      <p class="title"><a href="/#/8">Two EqualL Columns</a></p>
-      <p class="subtitle">Sub-Title</p>
-    </div>
-    <div class="rounded-box">
-      <p class="title"><a href="/#/5">One Column Page</a></p>
-      <p class="subtitle">Sub-Title</p>
-    </div>
+  <div class="chapter-column">
+      <h4>Agenda</h4>
   </div>
 
-  <div  class="column2">
-    <div class="rounded-box">
-      <p class="title"><a href="/#/5">One Column Page</a></p>
-      <p class="subtitle">Sub-Title</p>
-    </div>
-    <div class="rounded-box">
-      <p class="title"><a href="/#/5">One Column Page</a></p>
-      <p class="subtitle">Sub-Title</p>
-    </div>
-    <div class="rounded-box">
-      <p class="title"><a href="/#/5">One Column Page</a></p>
-      <p class="subtitle">Sub-Title</p>
-    </div>
-    <div class="rounded-box">
-      <p class="title"><a href="/#/5">One Column Page</a></p>
-      <p class="subtitle">Sub-Title</p>
-    </div>
-    <div class="rounded-box">
-      <p class="title"><a href="/#/5">One Column Page</a></p>
-      <p class="subtitle">Sub-Title</p>
-    </div>
+  <div  class="column2 left-marked-box">
+    <p class="list-title">Chapter 1</p>
+    <p class="subtitle">Chapter details ...</p>
+    <p class="list-title">Chapter 2</p>
+    <p class="subtitle">Chapter details ...</p>
+    <p class="list-title">Chapter 3</p>
+    <p class="subtitle">Chapter details ...</p>
+    <p class="list-title">Chapter 4</p>
+    <p class="subtitle">Chapter details ...</p>
   </div>
 </div>
 
