@@ -558,10 +558,6 @@ p.title {
 
 .image-column {
   /* border: 1px dashed green; */
-  /* debug statement */
-  width: 400px;
-  /* Set the width of the container */
-  height: 500px;
   /* Set the height of the container */
   display: flex;
   /* Use flexbox for centering */

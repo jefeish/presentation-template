@@ -3,7 +3,7 @@
 <br>
 <div class="container">
   
-  <div class="image-column-small">
+  <div class="image-column">
       <img src="https://via.placeholder.com/400x300" alt="Placeholder Image">
       <!-- <img src="images/copilot-stack.png" alt="Placeholder Image"> -->
   </div>

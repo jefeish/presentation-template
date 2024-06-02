@@ -10,7 +10,7 @@
     <p class="list-title">Lorem ipsum dolor sit amet</p>
   </div>
     <div class="column2">
-  <div class="image-column-small">
+  <div class="image-column">
     <img src="https://via.placeholder.com/400x300" alt="Placeholder Image">
   </div>
   </div>
