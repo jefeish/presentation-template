@@ -51,8 +51,8 @@ Create your own presentation Repository using this Repo as a template.
 
 - **We provide sample/layout pages for you to use as a reference**
 
-    The `/docs/slides-template` folder contains a set of sample slides, showing you different layouts for your slides.
-    Copy any of the template slides that you want to use, from the `slides-template` folder to the `slides` folder and include the slide in the `index.html` file.
+    The `/docs/slides` folder contains a set of sample slides, showing you different layouts for your slides.
+    Use any of the template slides that you want to use and include the slide with a reference in the `index.html` file.
 
 ---
 
