@@ -28,7 +28,7 @@ Create your own presentation Repository using this Repo as a template.
 
 ### How do I add/remove slides to my presentation ?
 
-- To add new slides to your presenentation, add a reference to the slide that you want to add, in the `/docs/index.html` file.
+- To add new slides to your presentation, add a reference to the slide that you want to add, in the `/docs/index.html` file.
 
 > **Note:** We provide a utility Node script (`dev/create-dev-index.js`) to help generate an `index.html` file for every content slide from the slides folder, use this for developement.
 >
