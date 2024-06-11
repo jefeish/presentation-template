@@ -21,48 +21,48 @@
 		<div class="slides">
 			<section data-background-image="images/mini-github.gif" data-transition="slide"  data-markdown="slides/cover.md">Cover</section>
 			<section>
-				<section data-transition="slide"  data-markdown="slides/agenda.md">Sapmle</section>
-				<section data-transition="slide"  data-markdown="slides/agenda2.md">Sapmle</section>
-				<section data-transition="slide"  data-markdown="slides/agenda3.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/agenda.md">Sample</section>
+				<section data-transition="slide"  data-markdown="slides/agenda2.md">Sample</section>
+				<section data-transition="slide"  data-markdown="slides/agenda3.md">Sample</section>
 			</section>
 			<section>
-				<section data-transition="slide"  data-markdown="slides/chapter1.md">Sapmle</section>
-				<section data-transition="slide"  data-markdown="slides/chapter2.md">Sapmle</section>
-				<section data-transition="slide"  data-markdown="slides/chapter3.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/chapter1.md">Sample</section>
+				<section data-transition="slide"  data-markdown="slides/chapter2.md">Sample</section>
+				<section data-transition="slide"  data-markdown="slides/chapter3.md">Sample</section>
 			</section>				
-			<section data-transition="slide"  data-markdown="slides/1columns.md">Sapmle</section>
-			<section data-transition="slide"  data-markdown="slides/1columns2rows.md">Sapmle</section>
-			<section data-transition="slide"  data-markdown="slides/1table.md">Sapmle</section>		
+			<section data-transition="slide"  data-markdown="slides/1columns.md">Sample</section>
+			<section data-transition="slide"  data-markdown="slides/1columns2rows.md">Sample</section>
+			<section data-transition="slide"  data-markdown="slides/1table.md">Sample</section>		
 			<section>
-				<section data-transition="slide"  data-markdown="slides/1list.md">Sapmle</section>
-				<section data-transition="slide"  data-markdown="slides/2columns-list.md">Sapmle</section>
-				<section data-transition="slide"  data-markdown="slides/1columns1list.md">Sapmle</section>
-				<section data-transition="slide"  data-markdown="slides/1list1image.md">Sapmle</section>
-				<section data-transition="slide"  data-markdown="slides/1image-1list.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/1list.md">Sample</section>
+				<section data-transition="slide"  data-markdown="slides/2columns-list.md">Sample</section>
+				<section data-transition="slide"  data-markdown="slides/1columns1list.md">Sample</section>
+				<section data-transition="slide"  data-markdown="slides/1list1image.md">Sample</section>
+				<section data-transition="slide"  data-markdown="slides/1image-1list.md">Sample</section>
 			</section>
 			<section>
-				<section data-transition="slide"  data-markdown="slides/2columns.md">Sapmle</section>
-				<section data-transition="slide"  data-markdown="slides/2columns-line.md">Sapmle</section>
-				<section data-transition="slide"  data-markdown="slides/2columns-box.md">Sapmle</section>
-				<section data-transition="slide"  data-markdown="slides/2columns2rows.md">Sapmle</section>
-				<section data-transition="slide"  data-markdown="slides/2columns-title.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/2columns.md">Sample</section>
+				<section data-transition="slide"  data-markdown="slides/2columns-line.md">Sample</section>
+				<section data-transition="slide"  data-markdown="slides/2columns-box.md">Sample</section>
+				<section data-transition="slide"  data-markdown="slides/2columns2rows.md">Sample</section>
+				<section data-transition="slide"  data-markdown="slides/2columns-title.md">Sample</section>
 			</section>
 			<section>
-				<section data-transition="slide"  data-markdown="slides/3columns.md">Sapmle</section>
-				<section data-transition="slide"  data-markdown="slides/3columns2rows.md">Sapmle</section>
-				<section data-transition="slide"  data-markdown="slides/3columns-images.md">Sapmle</section>
-				<section data-transition="slide"  data-markdown="slides/3columns-tablets.md">Sapmle</section>	
+				<section data-transition="slide"  data-markdown="slides/3columns.md">Sample</section>
+				<section data-transition="slide"  data-markdown="slides/3columns2rows.md">Sample</section>
+				<section data-transition="slide"  data-markdown="slides/3columns-images.md">Sample</section>
+				<section data-transition="slide"  data-markdown="slides/3columns-tablets.md">Sample</section>	
 			</section>
 			<section>
-				<section data-transition="slide"  data-markdown="slides/4columns.md">Sapmle</section>
-				<section data-transition="slide"  data-markdown="slides/4columns2rows.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/4columns.md">Sample</section>
+				<section data-transition="slide"  data-markdown="slides/4columns2rows.md">Sample</section>
 			</section>
 			<section>
-				<section data-transition="slide"  data-markdown="slides/image-column.md">Sapmle</section>
-				<section data-transition="slide"  data-markdown="slides/newspaper.md">Sapmle</section>
+				<section data-transition="slide"  data-markdown="slides/image-column.md">Sample</section>
+				<section data-transition="slide"  data-markdown="slides/newspaper.md">Sample</section>
 			</section>
-			<section data-transition="slide"  data-markdown="slides/code-column.md">Sapmle</section>
-			<section data-transition="slide"  data-markdown="slides/qa.md">Sapmle</section>
+			<section data-transition="slide"  data-markdown="slides/code-column.md">Sample</section>
+			<section data-transition="slide"  data-markdown="slides/qa.md">Sample</section>
 		</div>
 	</div>
 
