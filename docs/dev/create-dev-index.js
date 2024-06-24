@@ -1,6 +1,6 @@
 /**
  * @description This script generates section elements for each markdown 
- *              file in the slides folder and update the index.html file with the 
+ *              file in the slides folder and updates the index.html file with the 
  *              generated section elements.
  * 
  *              This script is intended to be used during presentation development, 

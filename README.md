@@ -28,7 +28,7 @@ Create your own presentation Repository using this Repo as a template.
 
 ### How do I add/remove slides to my presentation ?
 
-- To add new slides to your presenentation, add a reference to the slide that you want to add, in the `/docs/index.html` file.
+- To add new slides to your presentation, add a reference to the slide that you want to add, in the `/docs/index.html` file.
 
 > **Note:** We provide a utility Node script (`dev/create-dev-index.js`) to help generate an `index.html` file for every content slide from the slides folder, use this for developement.
 >
@@ -51,8 +51,8 @@ Create your own presentation Repository using this Repo as a template.
 
 - **We provide sample/layout pages for you to use as a reference**
 
-    The `/docs/slides-template` folder contains a set of sample slides, showing you different layouts for your slides.
-    Copy any of the template slides that you want to use, from the `slides-template` folder to the `slides` folder and include the slide in the `index.html` file.
+    The `/docs/slides` folder contains a set of sample slides, showing you different layouts for your slides.
+    Use any of the template slides that you want and include the slide with a reference in the `index.html` file.
 
 ---
 
@@ -95,7 +95,19 @@ Create your own presentation Repository using this Repo as a template.
         <link rel="stylesheet" href="revealjs/themes/github-alien.css">
     ...
     ```
+    
 - The `CSS Styles` are located in, `/docs/revealjs/themes`, feel free to modify them but be aware that this can have interesting consequences.
+
+#### ⚠️ NOTE: We wrote a small utility (Python) that allows you to switch between presentations and styles.
+
+- Inside the `/docs` folder run the `presentation-options` program, it will list any `index.html.<some_name>` presentation option and allows you to select a specific one.
+  Selecting one will copy the specific `index.html.<some_name>` over to the `index.html` file, therefore overwriting the `index.html` file.<br>
+  To fully utilize that approach you should store all your individual "presentation index files" in individual `index.html.<some-name>` files and and allow for the `index.html` file to be overwritten.
+
+  Example:
+
+    ![Screenshot2](https://github.com/jefeish/presentation-template/assets/863198/9e740f7a-42ea-4706-9ec9-b9a2e5d9e912)
+
 ---
 
 ### How do I 'deploy' the presetation on GitHub ?
