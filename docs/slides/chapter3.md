@@ -1,6 +1,6 @@
 <div class="container-demo">
     <div class="chapter-column">
-        <img width="100px" src="images/github/moon-600.png">
+        <img width="100px" src="images/github/github-icon.svg">
         <h4>Chapter 1</h4>
     </div>
     <div class="chapter-column">

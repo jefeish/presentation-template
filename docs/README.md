@@ -1,6 +1,6 @@
 # Docs Folder Content
 
-## This is a Template Repository for GitHub pages using [Reveal JS](https://revealjs.com)
+This is a Template Repository to use GitHub pages with [Reveal JS](https://revealjs.com) as your presentation platform
 
 ## To Run the Presentation in Development Mode
 
@@ -16,25 +16,35 @@ npm start
 
 http://localhost:9000/
 
+Note: In the browser...
+
+- Use `ESC` to see an overview of all slides in the presentation.
+- Use `S` to see the presentation speaker notes.
+
+### To Switch Between Presentations
+
+- Run (in the `docs/` folder)
+
+    ```bash
+    presentation-options
+    ```
+
+ - Example
+
+    ![sample](./images/presentation-options-sample.png)
+
+    >**Note:** switching between presentations (the index files), will overwrite the current `index.html` file and automatically update the life presentation.
+
+---
+
 ## Content Description
 
 |Files/Folders|Description|
 |---|---|
 |images/|Documentation images + source (drawio)|
-|node_modules/reveal.js/|[reveal js](https://revealjs.com) code to build GitHub pages|
+|docs/revealjs/|[Reveal JS](https://revealjs.com) code, custom plugins and themes - to build GitHub pages|
 |slides/|Source Markdown + HTML slide files, This is the content of the presentation|
-|slides-templates|Templates for the Markdown + HTML slide files. Copy these to the /slides folder and add content|
-|index.html|Reveal JS start page|
+|index.html|Reveal JS start page<br>**Note:** this file can be overwritten by custom `index` files <br>(see `presentation-option`)|
+|index.html.<name_your_presetation>|A custom slides collection and style|
+|presentation-option| A Python script to switch between multiple presentation `index` files|
 |.nojekyll| disable Jekyll for GitHub pages|
-
-## Design Notes
-
-### [Colors](https://primer.style/presentations/design-guidelines/color-usage)
-
-| Background |   Text   | Highlight  |   Footer   |
-| :--------: | :------: | :--------: | :--------: |
-|   Black    |  White   | Yellow-600 |  Gray-600  |
-|   White    |  Black   |  Blue-600  |  Gray-600  |
-|  Gray-200  | Gray-900 |  Blue-600  |  Gray-600  |
-| Yellow-300 | Gray-900 |     -      | Yellow-700 |
-|  Blue-600  |  White   |     -      |  Blue-400  |

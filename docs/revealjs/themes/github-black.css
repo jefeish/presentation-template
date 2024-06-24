@@ -20,9 +20,9 @@
    * GLOBAL STYLES
    *********************************************/
  :root {
-   --r-background-image: url('../../images/copilot-background2-dark.png');
+   --r-background-image: url('../../images/background/background-copilot-dark.png');
    --bullet-icon: url('../../images/ball-blue.png');
-   --box-image: url("../../images/background2.png");
+   --box-image: url("../../images/background/background-2.png");
    --color-start: rgb(0, 3, 39);
    --color-end: rgb(0, 22, 132);
    --box-color-start: rgb(31, 33, 0);

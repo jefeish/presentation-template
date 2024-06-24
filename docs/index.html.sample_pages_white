@@ -19,7 +19,7 @@
 <body>
 	<div class="reveal">
 		<div class="slides">
-			<section data-background-image="images/mini-github.gif" data-transition="slide"  data-markdown="slides/cover.md">Cover</section>
+			<section data-transition="slide"  data-markdown="slides/cover.md">Cover</section>
 			<section>
 				<section data-transition="slide"  data-markdown="slides/agenda.md">Sapmle</section>
 				<section data-transition="slide"  data-markdown="slides/agenda2.md">Sapmle</section>

@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="revealjs/dist/reset.css">
 	<link rel="stylesheet" href="revealjs/dist/reveal.css">
 	<link rel="stylesheet" href="revealjs/plugin/title-footer/title-footer.css">
-	<link rel="stylesheet" href="revealjs/themes/github-black.css">
+	<link rel="stylesheet" href="revealjs/themes/github-white.css">
 
 	<!-- Theme used for syntax highlighted code -->
 	<link rel="stylesheet" href="revealjs/plugin/highlight/monokai.css">
@@ -19,7 +19,7 @@
 <body>
 	<div class="reveal">
 		<div class="slides">
-			<section data-background-image="images/mini-github.gif" data-transition="slide"  data-markdown="slides/cover.md">Cover</section>
+			<section data-transition="slide"  data-markdown="slides/cover.md">Cover</section>
 			<section>
 				<section data-transition="slide"  data-markdown="slides/agenda.md">Sapmle</section>
 				<section data-transition="slide"  data-markdown="slides/agenda2.md">Sapmle</section>
@@ -52,6 +52,7 @@
 				<section data-transition="slide"  data-markdown="slides/3columns2rows.md">Sapmle</section>
 				<section data-transition="slide"  data-markdown="slides/3columns-images.md">Sapmle</section>
 				<section data-transition="slide"  data-markdown="slides/3columns-tablets.md">Sapmle</section>	
+				<section data-transition="slide"  data-markdown="slides/3columns-image-tablets.md">Sapmle</section>		
 			</section>
 			<section>
 				<section data-transition="slide"  data-markdown="slides/4columns.md">Sapmle</section>

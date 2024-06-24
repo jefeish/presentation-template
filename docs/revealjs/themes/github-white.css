@@ -20,9 +20,9 @@
    * GLOBAL STYLES
    *********************************************/
    :root {
-    --r-background-image: url('../../images/copilot-background2-white.png');
+    --r-background-image: url('../../images/background/background-copilot-white.png');
     --bullet-icon: url('../../images/ball-blue.png');
-    --box-image: url("../../images/background3.png");
+    --box-image: url("../../images//background/background-github-2.png");
     --color-start: rgb(179, 179, 179);
     --color-end: rgb(220, 220, 220);
     --box-color-start: rgb(179, 179, 179);
@@ -791,6 +791,7 @@ td {
 
 .rounded-box-image {
   border: 1px solid var(--r-box-color1);
+  color: lightgrey;
   border-radius: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -801,6 +802,10 @@ td {
   background-size: cover; /* or use 'contain' if you want the entire image to be visible */
   background-repeat: no-repeat; /* prevent the image from repeating */
   background-position: center; /* center the image within the element */
+}
+
+.rounded-box-image h1, .rounded-box-image h2, .rounded-box-image h3{
+  color:white;
 }
 
 .rounded-box {
